@@ -6,7 +6,12 @@
     <img src="./imgs/delora.png" width="650">
 </h1>
 
-Official PyTorch implementation of [**Decoupling Angles and Strength in Low-rank Adaptation**
+
+DeLoRA is now integrated in the official 🤗 [PEFT](https://github.com/huggingface/peft) library. Please refer to that for an efficient and deployable implementation, with improved zero-initialization (see also [docs](https://huggingface.co/docs/peft/en/package_reference/delora) and [usage example](https://github.com/huggingface/peft/tree/main/examples/delora_finetuning)).
+
+-----
+
+Here is reported the original PyTorch implementation of [**Decoupling Angles and Strength in Low-rank Adaptation**
 ](https://arxiv.org/abs/2503.18225), M. Bini, L. Girrbach, Z. Akata (ICLR 2025)
 
 
@@ -60,7 +65,7 @@ This code repository builds upon the GLUE data splits from [RED](https://github.
 ## Citation
 If you find DeLoRA useful, consider citing our work!
 ```bibtex
-@inproceedings{bini2025decouplinganglesstrengthlowrank,
+@inproceedings{bini2025delora,
       title={Decoupling Angles and Strength in Low-rank Adaptation}, 
       author={Massimo Bini and Leander Girrbach and Zeynep Akata},
       year={2025},
